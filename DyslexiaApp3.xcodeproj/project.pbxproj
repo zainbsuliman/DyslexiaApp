@@ -10,10 +10,28 @@
 		DB00B4AD2D0ABBB500FD4571 /* DyslexiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DyslexiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DB00B9422D0EC3A300FD4571 /* Exceptions for "DyslexiaApp" folder in "DyslexiaApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DB00B4AC2D0ABBB500FD4571 /* DyslexiaApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DB00B4AF2D0ABBB500FD4571 /* DyslexiaApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DB00B9422D0EC3A300FD4571 /* Exceptions for "DyslexiaApp" folder in "DyslexiaApp" target */,
+			);
 			path = DyslexiaApp;
+			sourceTree = "<group>";
+		};
+		DB00B9832D0EC6B500FD4571 /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +52,7 @@
 			children = (
 				DB00B4AF2D0ABBB500FD4571 /* DyslexiaApp */,
 				DB00B4AE2D0ABBB500FD4571 /* Products */,
+				DB00B9832D0EC6B500FD4571 /* Preview Content */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +81,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DB00B4AF2D0ABBB500FD4571 /* DyslexiaApp */,
+				DB00B9832D0EC6B500FD4571 /* Preview Content */,
 			);
 			name = DyslexiaApp;
 			packageProductDependencies = (
@@ -255,6 +275,7 @@
 				DEVELOPMENT_TEAM = CPSJQMMQ8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DyslexiaApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +305,7 @@
 				DEVELOPMENT_TEAM = CPSJQMMQ8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DyslexiaApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
